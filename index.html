@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <meta name="description" content="pagina de Restaurante, freelance">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">   
+    
+    <link rel="preload" href="build/css/app.css" as="style">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+
+    <header class="header ">
+            <div class="contenedor barra">
+                <h1 class="logo"><a href="#">Mazano.</a></h1>
+                <nav class="navegacion">
+                   <a href="#inicio">home</a>
+                   <a href="#fresh">fresh food</a>
+                   <a href="#shop">shop</a>
+                   <a href="#about">about</a>
+                   <a href="#blog">blog</a>
+                </nav>
+                <div class="icons">
+                    <img src="build/img/loupe.svg" alt=search"">
+                    <img src="build/img/user.svg" alt="user">
+                    <img src="build/img/shopping-bag.svg" alt="carrito">
+                    <img class="menu" src="build/img/menu.svg" alt="menu hamburger">
+                </div>
+                <span class="close">X</span>
+            </div>
+    </header>
+
+    <span class="go-top">
+        <img src="build/img/up-arrow.svg" alt="go top">
+    </span>
+
+    <div  id="inicio" class="portada">
+        <div class="portada__contenido contenedor">
+            <div class="portada__info">
+                <p>Let´s solve hunger together with monthly Offer</p>
+                <h2>Organic <br>pasta & sauce</h2>
+                <a href="#" class="boton ">Buy now</a>
+            </div>
+            <div class="portada__imagen">
+                <img loading="lazy" src="build/img/portada.png" alt="imagen portada">
+            </div>
+        </div>
+    </div>
+
+    <div id="shop" class="navegacion__productos">
+        <div class="navegacion__contenido contenedor">
+            <h3 class="titulo">featured products</h3>
+            <nav class="navegacion__items">
+                <a href="#">salad</a>
+                <a href="#">pastas</a>
+                <a href="#">vegetales</a>
+                <a href="#">bread</a>
+                <div><a class="boton" href="#" >view all</a></div>
+            </nav>
+        </div>
+    </div>
+    <div class="productos contenedor">
+        <div class="producto">
+            <img loading="lazy" src="build/img/plato.jpg" alt="plato">
+            <div class="producto__info">
+                <p>Lorem ipsum dolor</p>
+                <span>$ 199</span>
+            </div>
+        </div>
+        <div class="producto">
+            <img loading="lazy" src="build/img/plato.jpg" alt="plato">
+            <div class="producto__info">
+                <p>Lorem ipsum dolor</p>
+                <span>$ 199</span>
+            </div>
+        </div>
+        <div class="producto">
+            <img loading="lazy" src="build/img/plato.jpg" alt="plato">
+            <div class="producto__info">
+                <p>Lorem ipsum dolor</p>
+                <span>$ 199</span>
+            </div>
+        </div>
+        <div class="producto">
+            <img loading="lazy" src="build/img/plato.jpg" alt="plato">
+            <div class="producto__info">
+                <p>Lorem ipsum dolor</p>
+                <span>$ 199</span>
+            </div>
+        </div>
+        <div class="producto">
+            <img loading="lazy" src="build/img/plato.jpg" alt="plato">
+            <div class="producto__info">
+                <p>Lorem ipsum dolor</p>
+                <span>$ 199</span>
+            </div>
+        </div>
+        <div class="producto">
+            <img loading="lazy" src="build/img/plato.jpg" alt="plato">
+            <div class="producto__info">
+                <p>Lorem ipsum dolor</p>
+                <span>$ 199</span>
+            </div>
+        </div>
+        <div class="producto">
+            <img loading="lazy" src="build/img/plato.jpg" alt="plato">
+            <div class="producto__info">
+                <p>Lorem ipsum dolor</p>
+                <span>$ 199</span>
+            </div>
+        </div>
+        <div class="producto">
+            <img loading="lazy" src="build/img/plato.jpg" alt="plato">
+            <div class="producto__info">
+                <p>Lorem ipsum dolor</p>
+                <span>$ 199</span>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="fresh" class="fondo__publicidad">
+        <section>
+            <h3>Hot menu</h3>
+            <h4>ELAD APELSIN & FLADER</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam officia alias error debitis culpa perspiciatis amet ex deleniti natus possimus?</p>
+
+            <a href="#" class="boton">view all</a>
+        </section>
+    </div>
+    <div id="blog" class="contenedor blog">
+            <h3 class="titulo">from our blog</h3>
+    </div>
+    <section class="contenedor contenedor__blog">
+        <article class="contenido__blog">
+            <div class="imagen__blog">
+                <picture>
+                    <source srcset="build/img/plato1.webp" type="image/webp">
+                    <source srcset="build/img/plato1.jpg" type="image/jpeg">
+                    <img loading="lazy" src="build/img/plato1.jpg" alt="imagen blog">
+                </picture>
+            </div>
+            <div class="texto__blog">
+                <h4>Lorem ipsum dolor sit amet.</h4>         
+                <p>Create by: <span>Geovani Reyes</span></p>
+                <a class="boton" href="#">read more</a>
+            </div>
+        </article>
+        <article class="contenido__blog">
+            <div class="imagen__blog">
+                <picture>
+                    <source srcset="build/img/plato2.webp" type="image/webp">
+                    <source srcset="build/img/plato2.jpg" type="image/jpeg">
+                    <img loading="lazy" src="build/img/plato2.jpg" alt="imagen blog">
+                </picture>
+            </div>
+            <div class="texto__blog">
+                <h4>Lorem ipsum dolor sit amet.</h4>         
+                <p>Create by: <span>Geovani Reyes</span></p>
+                <a class="boton" href="#">read more</a>
+            </div>
+        </article>
+    </section>
+    <div id="about" class="footer">
+        <div class="contenedor footer__contenido">
+            <div class="footer__informacion">
+                <h1 class="logo"><a href="#">Mazano.</a></h1>
+                <div class="footer__informacion--texto">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis repellendus nulla dolor, quae debitis neque beatae ratione tempora fuga iure.
+                </div>
+                <div class="phone">
+                    <img src="build/img/call.svg" alt="phone">
+                    <p>(+51) 555-2233 </p>
+                </div>
+                <div class="email">
+                    <img src="build/img/mail.svg" alt="mail">
+                    <p>correo@mazano.com</p>
+                </div>
+            </div>
+            <div class="footer__categoria">
+                <h4 class="footer__titulo acordeon" footer__titulo">Categories</h4>
+                <ul class="cont_acordeon">
+                    <li>life style</li>
+                    <li>Fesh</li>
+                    <li>Juges</li>
+                    <li>Pastas</li>
+                    <li>Vegan</li>
+                </ul>
+            </div>
+            <div class="footer__categoria">
+                <h4 class="footer__titulo acordeon1">information</h4>
+                <ul class="cont_acordeon1">
+                    <li>Especial</li>
+                    <li>New products</li>
+                    <li>history</li>
+                    <li>Our team</li>
+                    <li>contact</li>
+                </ul>
+            </div>
+            <div class="footer__categoria">
+                <h4 class="footer__titulo">Newsletter</h4>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <div class="formulario">
+                    <input type="email" placeholder="Email">
+                    <a href="#" class="boton text-center">suscribe</a>
+                </div>
+                <h4 class="footer__titulo">We accept</h4>
+                <div class="cards">
+                    <img class="cards__icono" src="build/img/visa.svg" alt="">
+                    <img class="cards__icono" src="build/img/mastercard.svg" alt="">
+                    <img class="cards__icono" src="build/img/paypal.svg" alt="">
+                    <img class="cards__icono" src="build/img/american-express.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer class="copyright">
+    <div class="copyright__contenido contenedor">
+        <div class="contacto">
+            <p>&copy; 2021 Geovani Reyes</p>
+            <div class="redes">
+                <div class="red">
+                    <img src="build/img/facebook.svg" alt="mazano facebook">
+                </div>
+                <div class="red">
+                    <img src="build/img/twitter.svg" alt="mazano twitter">
+                </div>
+                <div class="red">
+                    <img src="build/img/instagram.svg" alt="mazano instagram">
+                </div>
+                <div class="red">
+                    <img src="build/img/pinterest-social-logo.svg" alt="mazano pinterest">
+                </div>
+            </div>
+        </div>
+        <div class="infoAdicional">
+            <a href="#">About Us</a>
+            <a href="#">Customer Services</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+    </div>
+</footer>
+
+    <script src="build/js/bundle.min.js"></script>
+
+</body>
+</html>
+
